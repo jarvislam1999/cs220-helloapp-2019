@@ -1,5 +1,7 @@
 jobs:
   include:
     - stage: test
-      script: pytest
+      script:
+      - pip install pytest
+      - pytest
 
