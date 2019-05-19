@@ -2,6 +2,6 @@ jobs:
   include:
     - stage: test
       script:
-      - pip install pytest
-      - pytest
+      - cd tests/
+      - python test_greeting.py
 
