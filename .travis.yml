@@ -1,5 +1,5 @@
 dist: xenial
-
+77;20903;0c
 addons:
   apt:
     packages:
@@ -9,5 +9,5 @@ jobs:
   include:
     - stage: test
       script:
-      - pytest
+      - py.test
 
