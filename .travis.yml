@@ -1,3 +1,10 @@
+dist: xenial
+
+addons:
+  apt:
+    packages:
+      -python-pytest
+
 jobs:
   include:
     - stage: test
