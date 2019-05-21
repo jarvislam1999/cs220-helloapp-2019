@@ -3,7 +3,7 @@ dist: xenial
 addons:
   apt:
     packages:
-      - python-pytest
+      - python3-pytest
 
 jobs:
   include:
