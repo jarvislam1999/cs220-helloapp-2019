@@ -9,5 +9,5 @@ jobs:
   include:
     - stage: test
       script:
-      - py.test
-
+        - pytest
+		  
