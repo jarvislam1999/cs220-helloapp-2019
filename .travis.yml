@@ -1,5 +1,7 @@
 dist: xenial
-77;20903;0c
+
+language: python
+
 addons:
   apt:
     packages:
