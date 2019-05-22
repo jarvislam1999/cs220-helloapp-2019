@@ -7,9 +7,6 @@ addons:
     packages:
       - python3-pytest
 
-python:
-  - '3.5'
-
 jobs:
   include:
     - stage: test
